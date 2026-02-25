@@ -106,7 +106,10 @@ export default function SurveyAppClean() {
                     element.imageHtml = imagesHtml;
                   } else {
                     element.choices = selectedImages.map((image, index) => ({
-                      value: `image_${index}`,
+                      value: JSON.stringify({
+                        selected: image.url,
+                        choices: selectedImages.map((img) => img.url),
+                      }),
                       imageLink: image.url,
                     }));
                   }
