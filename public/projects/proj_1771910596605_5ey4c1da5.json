@@ -1,0 +1,499 @@
+{
+  "project": {
+    "id": "proj_1771910596605_5ey4c1da5",
+    "name": "ISCM Survey (Vie)",
+    "description": "",
+    "createdAt": "2026-02-24T05:23:16.605Z",
+    "lastModified": "2026-02-24T05:23:16.605Z",
+    "templateId": null,
+    "supabaseConfig": null,
+    "imageDatasetConfig": {
+      "enabled": true,
+      "huggingFaceToken": "",
+      "datasetName": "Zennie0804/TenImageTest",
+      "supabaseUrl": "https://dxmxjxgllefumbbhmqwt.supabase.co",
+      "supabaseKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR4bXhqeGdsbGVmdW1iYmhtcXd0Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3MTg2OTA3OSwiZXhwIjoyMDg3NDQ1MDc5fQ.LZNGYnWlx1Sw9hl3uYv4ZFqkoQkpNUtxj7AngVL_uAs",
+      "datasetInfo": {
+        "id": "Zennie0804/TenImageTest",
+        "description": "Dataset accessed via datasets-server API",
+        "author": "Zennie0804",
+        "lastModified": "2026-02-24T05:23:32.053Z",
+        "private": false,
+        "imageCount": 30,
+        "dataset_info": {
+          "default": {
+            "description": "",
+            "citation": "",
+            "homepage": "",
+            "license": "",
+            "features": {
+              "image": {
+                "_type": "Image"
+              }
+            },
+            "builder_name": "imagefolder",
+            "dataset_name": "ten_image_test",
+            "config_name": "default",
+            "version": {
+              "version_str": "0.0.0",
+              "major": 0,
+              "minor": 0,
+              "patch": 0
+            },
+            "splits": {
+              "train": {
+                "name": "train",
+                "num_bytes": 76794944,
+                "num_examples": 30,
+                "dataset_name": "ten_image_test"
+              }
+            },
+            "size_in_bytes": 153589413
+          }
+        }
+      },
+      "supabaseConnectionStatus": {
+        "connected": true,
+        "projectInfo": {
+          "url": "https://dxmxjxgllefumbbhmqwt.supabase.co",
+          "bucketsCount": 1,
+          "surveyBucketExists": true,
+          "buckets": [
+            "survey-images"
+          ]
+        },
+        "lastTested": "2026-02-24T05:33:08.820Z"
+      }
+    },
+    "serverSetupComplete": true,
+    "serverSetupCompletedAt": "2026-02-25T02:53:43.738Z"
+  },
+  "surveyConfig": {
+    "title": "Khảo sát nhận thức",
+    "description": "Kháo sát này giúp chúng tôi hiểu được nhận thức và ý kiến của bạn",
+    "logo": "",
+    "logoPosition": "left",
+    "settings": {
+      "showQuestionNumbers": "off",
+      "showProgressBar": "aboveheader",
+      "progressBarType": "questions",
+      "autoGrowComment": true,
+      "showPreviewBeforeComplete": "showAllQuestions"
+    },
+    "images": [],
+    "pages": [
+      {
+        "name": "page1",
+        "title": "An toàn",
+        "description": "",
+        "elements": [
+          {
+            "type": "imagepicker",
+            "name": "question_1771911273421",
+            "title": "Theo bạn, nơi nào trông an toàn hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911273422",
+            "title": "Theo bạn, nơi nào trông an toàn hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911273423",
+            "title": "Theo bạn, nơi nào trông an toàn hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911273424",
+            "title": "Theo bạn, nơi nào trông an toàn hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911273425",
+            "title": "Theo bạn, nơi nào trông an toàn hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911273426",
+            "title": "Theo bạn, nơi nào trông an toàn hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          }
+        ]
+      },
+      {
+        "name": "page_1771911195652",
+        "title": "Sinh động",
+        "description": "",
+        "elements": [
+          {
+            "type": "imagepicker",
+            "name": "question_1771911370458",
+            "title": "Theo bạn, nơi nào trông sinh động hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911370459",
+            "title": "Theo bạn, nơi nào trông sinh động hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911370460",
+            "title": "Theo bạn, nơi nào trông sinh động hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911370461",
+            "title": "Theo bạn, nơi nào trông sinh động hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911370462",
+            "title": "Theo bạn, nơi nào trông sinh động hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911370463",
+            "title": "Theo bạn, nơi nào trông sinh động hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          }
+        ]
+      },
+      {
+        "name": "page_1771911411625",
+        "title": "Đẹp",
+        "description": "",
+        "elements": [
+          {
+            "type": "imagepicker",
+            "name": "question_1771911447100",
+            "title": "Theo bạn, nơi nào trông đẹp hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911447101",
+            "title": "Theo bạn, nơi nào trông đẹp hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911447102",
+            "title": "Theo bạn, nơi nào trông đẹp hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911447103",
+            "title": "Theo bạn, nơi nào trông đẹp hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911447104",
+            "title": "Theo bạn, nơi nào trông đẹp hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911447105",
+            "title": "Theo bạn, nơi nào trông đẹp hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          }
+        ]
+      },
+      {
+        "name": "page_1771911495416",
+        "title": "Sang trọng, Giàu có",
+        "description": "",
+        "elements": [
+          {
+            "type": "imagepicker",
+            "name": "question_1771911597125",
+            "title": "Theo bạn, nơi nào trông sang trọng, giàu có hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911597126",
+            "title": "Theo bạn, nơi nào trông sang trọng, giàu có hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911597127",
+            "title": "Theo bạn, nơi nào trông sang trọng, giàu có hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911597128",
+            "title": "Theo bạn, nơi nào trông sang trọng, giàu có hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911597129",
+            "title": "Theo bạn, nơi nào trông sang trọng, giàu có hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911597130",
+            "title": "Theo bạn, nơi nào trông sang trọng, giàu có hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          }
+        ]
+      },
+      {
+        "name": "page_1771911655619",
+        "title": "Chán, buồn",
+        "description": "",
+        "elements": [
+          {
+            "type": "imagepicker",
+            "name": "question_1771911693816",
+            "title": "Theo bạn, nơi nào trông chán, buồn hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911693817",
+            "title": "Theo bạn, nơi nào trông chán, buồn hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911693818",
+            "title": "Theo bạn, nơi nào trông chán, buồn hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911693819",
+            "title": "Theo bạn, nơi nào trông chán, buồn hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911693820",
+            "title": "Theo bạn, nơi nào trông chán, buồn hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911693821",
+            "title": "Theo bạn, nơi nào trông chán, buồn hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          }
+        ]
+      },
+      {
+        "name": "page_1771911760710",
+        "title": "Chán, ít hoạt động",
+        "description": "",
+        "elements": [
+          {
+            "type": "imagepicker",
+            "name": "question_1771911829718",
+            "title": "Theo bạn, nơi nào trông chán, ít hoạt động hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911829719",
+            "title": "Theo bạn, nơi nào trông chán, ít hoạt động hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911829720",
+            "title": "Theo bạn, nơi nào trông chán, ít hoạt động hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911829721",
+            "title": "Theo bạn, nơi nào trông chán, ít hoạt động hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911829722",
+            "title": "Theo bạn, nơi nào trông chán, ít hoạt động hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771911829723",
+            "title": "Theo bạn, nơi nào trông chán, ít hoạt động hơn?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          }
+        ]
+      }
+    ],
+    "theme": {
+      "primaryColor": "#ce2027",
+      "backgroundColor": "#f2f2f2",
+      "headerBackground": "#ffe0b2",
+      "secondaryText": "#ce2027",
+      "disabledText": "#ce2027"
+    }
+  },
+  "supabaseConfig": null,
+  "savedAt": "2026-02-25T02:53:43.741Z",
+  "version": "2.0"
+}

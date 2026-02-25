@@ -1,0 +1,539 @@
+{
+  "project": {
+    "id": "proj_1771894855210_nwqhcqt5g",
+    "name": "ISCM Survey",
+    "description": "",
+    "createdAt": "2026-02-24T01:00:55.210Z",
+    "lastModified": "2026-02-24T04:10:49.707Z",
+    "templateId": null,
+    "supabaseConfig": null,
+    "imageDatasetConfig": {
+      "enabled": true,
+      "huggingFaceToken": "",
+      "datasetName": "khoipm2/vietnam-perception-survey",
+      "supabaseUrl": "https://dxmxjxgllefumbbhmqwt.supabase.co",
+      "supabaseKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR4bXhqeGdsbGVmdW1iYmhtcXd0Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3MTg2OTA3OSwiZXhwIjoyMDg3NDQ1MDc5fQ.LZNGYnWlx1Sw9hl3uYv4ZFqkoQkpNUtxj7AngVL_uAs",
+      "datasetInfo": {
+        "id": "khoipm2/vietnam-perception-survey",
+        "description": "Dataset accessed via datasets-server API",
+        "author": "khoipm2",
+        "lastModified": "2026-02-24T09:39:16.424Z",
+        "private": false,
+        "imageCount": 119,
+        "dataset_info": {
+          "default": {
+            "description": "",
+            "citation": "",
+            "homepage": "",
+            "license": "",
+            "features": {
+              "image": {
+                "_type": "Image"
+              }
+            },
+            "builder_name": "imagefolder",
+            "dataset_name": "vietnam-perception-survey",
+            "config_name": "default",
+            "version": {
+              "version_str": "0.0.0",
+              "major": 0,
+              "minor": 0,
+              "patch": 0
+            },
+            "splits": {
+              "train": {
+                "name": "train",
+                "num_bytes": 245699526,
+                "num_examples": 119,
+                "dataset_name": "vietnam-perception-survey"
+              }
+            },
+            "size_in_bytes": 491395289
+          }
+        }
+      },
+      "supabaseConnectionStatus": {
+        "connected": true,
+        "projectInfo": {
+          "url": "https://dxmxjxgllefumbbhmqwt.supabase.co",
+          "bucketsCount": 1,
+          "surveyBucketExists": true,
+          "buckets": [
+            "survey-images"
+          ]
+        },
+        "lastTested": "2026-02-24T04:11:13.062Z"
+      }
+    },
+    "preloadedImages": [],
+    "preloadedAt": null,
+    "preloadedSource": null,
+    "supabaseBucket": null,
+    "serverSetupComplete": true,
+    "serverSetupCompletedAt": "2026-02-25T01:45:44.744Z",
+    "author": "ISCM",
+    "year": "2026",
+    "category": "Academic Research"
+  },
+  "surveyConfig": {
+    "title": "Perception Survey",
+    "description": "This survey helps us understand your awareness and opinions.",
+    "logo": "",
+    "logoPosition": "left",
+    "settings": {
+      "showQuestionNumbers": "off",
+      "showProgressBar": "aboveheader",
+      "progressBarType": "questions",
+      "autoGrowComment": true,
+      "showPreviewBeforeComplete": "showAllQuestions"
+    },
+    "images": [],
+    "pages": [
+      {
+        "name": "page1",
+        "title": "Safe",
+        "description": "",
+        "elements": [
+          {
+            "type": "imagepicker",
+            "name": "question_1771896169585",
+            "title": "In your opinion, which place looks more safe?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover",
+            "selectedImageUrls": [
+              "https://datasets-server.huggingface.co/cached-assets/Zennie0804/TenImageTest/--/1432b36a2b12260c213428dd7e626e8b833e5948/--/default/train/0/image/image.png?Expires=1771902952&Signature=cwJXKc~F~FtxSTTt-1YooLw0i0MqZAucCNqEDwxWthFVP4ine6iiuBlVHZZU9kiG20ACkU5D9GSiKxvs-KSv33EpTBcYQmufnvoY9xaA5Zgz6O7lWT776zL2QaxyPgx-EHMg5N-WI9zPSrq5nMBpmn20ZO2Xag2cHtn3beSNWtwoC2Fnciwly-rWf6IrGGkHSUMGnmLQfSH10GB~8cg9EHb4ph3xv9j3A-sC1YI-CO6K2CpGyr6Ucn7SovhxRhaE~8FG2kKOvq6nT3zjp1S3nzki6au28kKqE4k23ciUvmeoAU2Rqt2ImY6F3CQmJLGPwRcrdwdWSL8H1uqFU3n0Vw__&Key-Pair-Id=K3EI6M078Z3AC3",
+              "https://datasets-server.huggingface.co/cached-assets/Zennie0804/TenImageTest/--/1432b36a2b12260c213428dd7e626e8b833e5948/--/default/train/2/image/image.jpg?Expires=1771902952&Signature=zWIe1VMbW2b-vtScP-36xnLL43OGjwkKhsRhOaPDu-aorH7iWNIOeyPAAdDB9vguKyhf1g6im~LnEhepVnGrDOZmbi6FAfl8g6OfrLRmboEudmCOEPShW5m9zPBhiX~m59clmGH-JVegI206z1YYrJKR7wbmjjDj~b6aBGXP9zOyZ8a2wHvjJ49ERbogaHbWMbeOZS0lTKzUnuufbfTI9iI8e79WZgVxXhM~-kBXZnGvUeVAIli97YGaIBTcsyNdV1QKxWjJW7izrqsDCIPSUDT83g~afhDXGJZz9Tjllh5ulRyxIZ4Ppw3okXoPbDVpka0V9UgDQROqQSVTj6bFFA__&Key-Pair-Id=K3EI6M078Z3AC3"
+            ]
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771896169586",
+            "title": "In your opinion, which place looks more safe?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover",
+            "selectedImageUrls": [
+              "https://datasets-server.huggingface.co/cached-assets/Zennie0804/TenImageTest/--/1432b36a2b12260c213428dd7e626e8b833e5948/--/default/train/0/image/image.png?Expires=1771902952&Signature=cwJXKc~F~FtxSTTt-1YooLw0i0MqZAucCNqEDwxWthFVP4ine6iiuBlVHZZU9kiG20ACkU5D9GSiKxvs-KSv33EpTBcYQmufnvoY9xaA5Zgz6O7lWT776zL2QaxyPgx-EHMg5N-WI9zPSrq5nMBpmn20ZO2Xag2cHtn3beSNWtwoC2Fnciwly-rWf6IrGGkHSUMGnmLQfSH10GB~8cg9EHb4ph3xv9j3A-sC1YI-CO6K2CpGyr6Ucn7SovhxRhaE~8FG2kKOvq6nT3zjp1S3nzki6au28kKqE4k23ciUvmeoAU2Rqt2ImY6F3CQmJLGPwRcrdwdWSL8H1uqFU3n0Vw__&Key-Pair-Id=K3EI6M078Z3AC3",
+              "https://datasets-server.huggingface.co/cached-assets/Zennie0804/TenImageTest/--/1432b36a2b12260c213428dd7e626e8b833e5948/--/default/train/2/image/image.jpg?Expires=1771902952&Signature=zWIe1VMbW2b-vtScP-36xnLL43OGjwkKhsRhOaPDu-aorH7iWNIOeyPAAdDB9vguKyhf1g6im~LnEhepVnGrDOZmbi6FAfl8g6OfrLRmboEudmCOEPShW5m9zPBhiX~m59clmGH-JVegI206z1YYrJKR7wbmjjDj~b6aBGXP9zOyZ8a2wHvjJ49ERbogaHbWMbeOZS0lTKzUnuufbfTI9iI8e79WZgVxXhM~-kBXZnGvUeVAIli97YGaIBTcsyNdV1QKxWjJW7izrqsDCIPSUDT83g~afhDXGJZz9Tjllh5ulRyxIZ4Ppw3okXoPbDVpka0V9UgDQROqQSVTj6bFFA__&Key-Pair-Id=K3EI6M078Z3AC3"
+            ]
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771896169587",
+            "title": "In your opinion, which place looks more safe?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover",
+            "selectedImageUrls": [
+              "https://datasets-server.huggingface.co/cached-assets/Zennie0804/TenImageTest/--/1432b36a2b12260c213428dd7e626e8b833e5948/--/default/train/0/image/image.png?Expires=1771902952&Signature=cwJXKc~F~FtxSTTt-1YooLw0i0MqZAucCNqEDwxWthFVP4ine6iiuBlVHZZU9kiG20ACkU5D9GSiKxvs-KSv33EpTBcYQmufnvoY9xaA5Zgz6O7lWT776zL2QaxyPgx-EHMg5N-WI9zPSrq5nMBpmn20ZO2Xag2cHtn3beSNWtwoC2Fnciwly-rWf6IrGGkHSUMGnmLQfSH10GB~8cg9EHb4ph3xv9j3A-sC1YI-CO6K2CpGyr6Ucn7SovhxRhaE~8FG2kKOvq6nT3zjp1S3nzki6au28kKqE4k23ciUvmeoAU2Rqt2ImY6F3CQmJLGPwRcrdwdWSL8H1uqFU3n0Vw__&Key-Pair-Id=K3EI6M078Z3AC3",
+              "https://datasets-server.huggingface.co/cached-assets/Zennie0804/TenImageTest/--/1432b36a2b12260c213428dd7e626e8b833e5948/--/default/train/2/image/image.jpg?Expires=1771902952&Signature=zWIe1VMbW2b-vtScP-36xnLL43OGjwkKhsRhOaPDu-aorH7iWNIOeyPAAdDB9vguKyhf1g6im~LnEhepVnGrDOZmbi6FAfl8g6OfrLRmboEudmCOEPShW5m9zPBhiX~m59clmGH-JVegI206z1YYrJKR7wbmjjDj~b6aBGXP9zOyZ8a2wHvjJ49ERbogaHbWMbeOZS0lTKzUnuufbfTI9iI8e79WZgVxXhM~-kBXZnGvUeVAIli97YGaIBTcsyNdV1QKxWjJW7izrqsDCIPSUDT83g~afhDXGJZz9Tjllh5ulRyxIZ4Ppw3okXoPbDVpka0V9UgDQROqQSVTj6bFFA__&Key-Pair-Id=K3EI6M078Z3AC3"
+            ]
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771896169588",
+            "title": "In your opinion, which place looks more safe?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover",
+            "selectedImageUrls": [
+              "https://datasets-server.huggingface.co/cached-assets/Zennie0804/TenImageTest/--/1432b36a2b12260c213428dd7e626e8b833e5948/--/default/train/0/image/image.png?Expires=1771902952&Signature=cwJXKc~F~FtxSTTt-1YooLw0i0MqZAucCNqEDwxWthFVP4ine6iiuBlVHZZU9kiG20ACkU5D9GSiKxvs-KSv33EpTBcYQmufnvoY9xaA5Zgz6O7lWT776zL2QaxyPgx-EHMg5N-WI9zPSrq5nMBpmn20ZO2Xag2cHtn3beSNWtwoC2Fnciwly-rWf6IrGGkHSUMGnmLQfSH10GB~8cg9EHb4ph3xv9j3A-sC1YI-CO6K2CpGyr6Ucn7SovhxRhaE~8FG2kKOvq6nT3zjp1S3nzki6au28kKqE4k23ciUvmeoAU2Rqt2ImY6F3CQmJLGPwRcrdwdWSL8H1uqFU3n0Vw__&Key-Pair-Id=K3EI6M078Z3AC3",
+              "https://datasets-server.huggingface.co/cached-assets/Zennie0804/TenImageTest/--/1432b36a2b12260c213428dd7e626e8b833e5948/--/default/train/2/image/image.jpg?Expires=1771902952&Signature=zWIe1VMbW2b-vtScP-36xnLL43OGjwkKhsRhOaPDu-aorH7iWNIOeyPAAdDB9vguKyhf1g6im~LnEhepVnGrDOZmbi6FAfl8g6OfrLRmboEudmCOEPShW5m9zPBhiX~m59clmGH-JVegI206z1YYrJKR7wbmjjDj~b6aBGXP9zOyZ8a2wHvjJ49ERbogaHbWMbeOZS0lTKzUnuufbfTI9iI8e79WZgVxXhM~-kBXZnGvUeVAIli97YGaIBTcsyNdV1QKxWjJW7izrqsDCIPSUDT83g~afhDXGJZz9Tjllh5ulRyxIZ4Ppw3okXoPbDVpka0V9UgDQROqQSVTj6bFFA__&Key-Pair-Id=K3EI6M078Z3AC3"
+            ]
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771896169589",
+            "title": "In your opinion, which place looks more safe?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover",
+            "selectedImageUrls": [
+              "https://datasets-server.huggingface.co/cached-assets/Zennie0804/TenImageTest/--/1432b36a2b12260c213428dd7e626e8b833e5948/--/default/train/0/image/image.png?Expires=1771902952&Signature=cwJXKc~F~FtxSTTt-1YooLw0i0MqZAucCNqEDwxWthFVP4ine6iiuBlVHZZU9kiG20ACkU5D9GSiKxvs-KSv33EpTBcYQmufnvoY9xaA5Zgz6O7lWT776zL2QaxyPgx-EHMg5N-WI9zPSrq5nMBpmn20ZO2Xag2cHtn3beSNWtwoC2Fnciwly-rWf6IrGGkHSUMGnmLQfSH10GB~8cg9EHb4ph3xv9j3A-sC1YI-CO6K2CpGyr6Ucn7SovhxRhaE~8FG2kKOvq6nT3zjp1S3nzki6au28kKqE4k23ciUvmeoAU2Rqt2ImY6F3CQmJLGPwRcrdwdWSL8H1uqFU3n0Vw__&Key-Pair-Id=K3EI6M078Z3AC3",
+              "https://datasets-server.huggingface.co/cached-assets/Zennie0804/TenImageTest/--/1432b36a2b12260c213428dd7e626e8b833e5948/--/default/train/2/image/image.jpg?Expires=1771902952&Signature=zWIe1VMbW2b-vtScP-36xnLL43OGjwkKhsRhOaPDu-aorH7iWNIOeyPAAdDB9vguKyhf1g6im~LnEhepVnGrDOZmbi6FAfl8g6OfrLRmboEudmCOEPShW5m9zPBhiX~m59clmGH-JVegI206z1YYrJKR7wbmjjDj~b6aBGXP9zOyZ8a2wHvjJ49ERbogaHbWMbeOZS0lTKzUnuufbfTI9iI8e79WZgVxXhM~-kBXZnGvUeVAIli97YGaIBTcsyNdV1QKxWjJW7izrqsDCIPSUDT83g~afhDXGJZz9Tjllh5ulRyxIZ4Ppw3okXoPbDVpka0V9UgDQROqQSVTj6bFFA__&Key-Pair-Id=K3EI6M078Z3AC3"
+            ]
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771896169590",
+            "title": "In your opinion, which place looks more safe?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover",
+            "selectedImageUrls": [
+              "https://datasets-server.huggingface.co/cached-assets/Zennie0804/TenImageTest/--/1432b36a2b12260c213428dd7e626e8b833e5948/--/default/train/0/image/image.png?Expires=1771902952&Signature=cwJXKc~F~FtxSTTt-1YooLw0i0MqZAucCNqEDwxWthFVP4ine6iiuBlVHZZU9kiG20ACkU5D9GSiKxvs-KSv33EpTBcYQmufnvoY9xaA5Zgz6O7lWT776zL2QaxyPgx-EHMg5N-WI9zPSrq5nMBpmn20ZO2Xag2cHtn3beSNWtwoC2Fnciwly-rWf6IrGGkHSUMGnmLQfSH10GB~8cg9EHb4ph3xv9j3A-sC1YI-CO6K2CpGyr6Ucn7SovhxRhaE~8FG2kKOvq6nT3zjp1S3nzki6au28kKqE4k23ciUvmeoAU2Rqt2ImY6F3CQmJLGPwRcrdwdWSL8H1uqFU3n0Vw__&Key-Pair-Id=K3EI6M078Z3AC3",
+              "https://datasets-server.huggingface.co/cached-assets/Zennie0804/TenImageTest/--/1432b36a2b12260c213428dd7e626e8b833e5948/--/default/train/2/image/image.jpg?Expires=1771902952&Signature=zWIe1VMbW2b-vtScP-36xnLL43OGjwkKhsRhOaPDu-aorH7iWNIOeyPAAdDB9vguKyhf1g6im~LnEhepVnGrDOZmbi6FAfl8g6OfrLRmboEudmCOEPShW5m9zPBhiX~m59clmGH-JVegI206z1YYrJKR7wbmjjDj~b6aBGXP9zOyZ8a2wHvjJ49ERbogaHbWMbeOZS0lTKzUnuufbfTI9iI8e79WZgVxXhM~-kBXZnGvUeVAIli97YGaIBTcsyNdV1QKxWjJW7izrqsDCIPSUDT83g~afhDXGJZz9Tjllh5ulRyxIZ4Ppw3okXoPbDVpka0V9UgDQROqQSVTj6bFFA__&Key-Pair-Id=K3EI6M078Z3AC3"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "page_1771906730705",
+        "title": "Lively",
+        "description": "",
+        "elements": [
+          {
+            "type": "imagepicker",
+            "name": "question_1771906738288",
+            "title": "In your opinion, which place looks more lively?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906738289",
+            "title": "In your opinion, which place looks more lively?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906738290",
+            "title": "In your opinion, which place looks more lively?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906738291",
+            "title": "In your opinion, which place looks more lively?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906738292",
+            "title": "In your opinion, which place looks more lively?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906738293",
+            "title": "In your opinion, which place looks more lively?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          }
+        ]
+      },
+      {
+        "name": "page_1771906796893",
+        "title": "Beautiful",
+        "description": "",
+        "elements": [
+          {
+            "type": "imagepicker",
+            "name": "question_1771906808909",
+            "title": "In your opinion, which place looks more beautiful?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906808910",
+            "title": "In your opinion, which place looks more beautiful?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906808911",
+            "title": "In your opinion, which place looks more beautiful?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906808912",
+            "title": "In your opinion, which place looks more beautiful?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906808913",
+            "title": "In your opinion, which place looks more beautiful?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906808914",
+            "title": "In your opinion, which place looks more beautiful?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          }
+        ]
+      },
+      {
+        "name": "page_1771906876342",
+        "title": "Wealthy",
+        "description": "",
+        "elements": [
+          {
+            "type": "imagepicker",
+            "name": "question_1771906887195",
+            "title": "In your opinion, which place looks more wealthy?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906887196",
+            "title": "In your opinion, which place looks more wealthy?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906887197",
+            "title": "In your opinion, which place looks more wealthy?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906887198",
+            "title": "In your opinion, which place looks more wealthy?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906887199",
+            "title": "In your opinion, which place looks more wealthy?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906887200",
+            "title": "In your opinion, which place looks more wealthy?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          }
+        ]
+      },
+      {
+        "name": "page_1771906935188",
+        "title": "Depressing",
+        "description": "",
+        "elements": [
+          {
+            "type": "imagepicker",
+            "name": "question_1771906946948",
+            "title": "In your opinion, which place looks more depressing?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906946949",
+            "title": "In your opinion, which place looks more depressing?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906946950",
+            "title": "In your opinion, which place looks more depressing?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906946951",
+            "title": "In your opinion, which place looks more depressing?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906946952",
+            "title": "In your opinion, which place looks more depressing?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906946953",
+            "title": "In your opinion, which place looks more depressing?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          }
+        ]
+      },
+      {
+        "name": "page_1771906993073",
+        "title": "Boring",
+        "description": "",
+        "elements": [
+          {
+            "type": "imagepicker",
+            "name": "question_1771906998946",
+            "title": "In your opinion, which place looks more boring?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906998947",
+            "title": "In your opinion, which place looks more boring?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906998948",
+            "title": "In your opinion, which place looks more boring?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906998949",
+            "title": "In your opinion, which place looks more boring?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906998950",
+            "title": "In your opinion, which place looks more boring?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          },
+          {
+            "type": "imagepicker",
+            "name": "question_1771906998951",
+            "title": "In your opinion, which place looks more boring?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "randomImageSelection": true,
+            "imageFit": "cover"
+          }
+        ]
+      }
+    ],
+    "theme": {
+      "primaryColor": "#ce2027",
+      "primaryLight": "#42a5f5",
+      "primaryDark": "#1565c0",
+      "secondaryColor": "#dc004e",
+      "accentColor": "#ff9800",
+      "successColor": "#4caf50",
+      "backgroundColor": "#f2f2f2",
+      "cardBackground": "#f8f9fa",
+      "headerBackground": "#ffe0b2",
+      "textColor": "#212121",
+      "secondaryText": "#757575",
+      "disabledText": "#ce2027",
+      "borderColor": "#e0e0e0",
+      "focusBorder": "#1976d2"
+    }
+  },
+  "supabaseConfig": null,
+  "savedAt": "2026-02-25T02:49:28.835Z",
+  "version": "2.0"
+}
